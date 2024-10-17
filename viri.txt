@@ -1,0 +1,5 @@
+https://www.scopus.com/record/display.uri?eid=2-s2.0-85203453556&origin=resultslist&sort=plf-f&src=s&sid=efe9fb6bdd7e3ad74e0ce36c37bd77ba&sot=b&sdt=cl&s=TITLE-ABS-KEY%28artificial+AND+intelligence+AND+in+AND+education%29&sl=38&sessionSearchId=efe9fb6bdd7e3ad74e0ce36c37bd77ba&relpos=4
+https://www.scopus.com/record/display.uri?eid=2-s2.0-85192834576&origin=resultslist&sort=plf-f&src=s&sid=efe9fb6bdd7e3ad74e0ce36c37bd77ba&sot=b&sdt=cl&s=TITLE-ABS-KEY%28artificial+AND+intelligence+AND+in+AND+education%29&sl=38&sessionSearchId=efe9fb6bdd7e3ad74e0ce36c37bd77ba&relpos=5
+https://ieeexplore.ieee.org/document/9482486
+https://ieeexplore.ieee.org/document/10590285
+https://ieeexplore.ieee.org/document/9262530
