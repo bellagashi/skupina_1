@@ -1,8 +1,8 @@
 # Uporaba umetne inteligence v šolah
 
 ## KAZALO
-[Uvod](#Uvod)
-[Uvod](#Uvod)
+[Uvod](#Uvod).
+[Uporaba umetne inteligence za izboljšanje kakovosti pouka](##Uporaba umetne inteligence za izboljšanje kakovosti pouka).
 
 
 ## UVOD
