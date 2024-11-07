@@ -1,6 +1,10 @@
 # Uporaba umetne inteligence v šolah
 
 ## KAZALO
+[Uvod](#Uvod)
+[Uvod](#Uvod)
+
+
 ## UVOD
 Uporaba umetne inteligence (UI) v šolstvu se je v zadnjem desetletju močno povečala in postala ključna za izboljšanje poučevanja ter prilagajanje učnih procesov potrebam sodobnih učencev. Umetna inteligenca v šolah omogoča inovativne pristope k poučevanju, kot so prilagajanje vsebin, analitika učnega napredka in izboljšana interaktivnost. Kot ugotavljata Chen in Li (2024), so učitelji in učenci v osnovnih in srednjih šolah s pomočjo umetne inteligence uspešno uporabili različne tehnologije, kar je spodbudilo ustvarjalnost ter omogočilo boljši vpogled v napredek pri učenju. Kljub prednostim pa obstajajo tudi številni izzivi, kot so omejene tehnološke zmožnosti, potreba po dodatnem usposabljanju učiteljev ter pomanjkanje ustreznih učnih načrtov, ki bi podpirali učinkovito implementacijo UI v učilnicah (Gao, Xia in Ji, 2024). 
 
