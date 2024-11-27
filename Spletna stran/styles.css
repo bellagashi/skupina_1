@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+}
+
+.header img.krog {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    padding-left: 100px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.vsebina {
+    padding: 2rem;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+section .besedilo {
+    flex: 1;
+}
+
+section .besedilo h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+section .besedilo p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+section .besedilo .gumb {
+    color: #00bcd4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section .slika {
+    flex: 1;
+}
+
+section .slika img {
+    width: 100%;
+    border-radius: 8px;
+}
