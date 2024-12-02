@@ -1,10 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sl">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novice</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<!-- Glavni meni -->
+<header class="header">
+    <div class="logo"></div>
+    <nav class="nav">
+        <a href="#">O športu</a>
+        <a href="#">Teme</a>
+        <a href="#">Ratings</a>
+        <button id="dark-mode-toggle" class="dark-mode-toggle">🌙</button>
+    </nav>
+</header>
+
+
+<!-- Glavna slika in naslov -->
+<div class="main">
+<div class="hero">
+    <img src="img/inx.jpg" alt="Odbojka v akciji" class="hero-img">
+</div></div>
+
+
+<!-- Sekcija z novicami -->
+<section class="news-section">
+    <h2>Zadnje novice</h2>
+    <div class="news-container">
+        <!-- News Card 1 -->
+        <div class="news-card">
+            <img src="img/novice.jpg" alt="Novica 1" class="news-img">
+            <h3>HDC and Abercrombie Crowned in Maldives and USA</h3>
+            <p>Both teams benefit from Volleyball Empowerment support so they can continue to compete in international competitions.</p>
+            <small>14. junij, 2024</small>
+        </div>
+
+        <!-- News Card 2 -->
+        <div class="news-card">
+            <img src="img/nov2.jpg" alt="Novica 2" class="news-img">
+            <h3>HDC and Abercrombie Crowned in Maldives and USA</h3>
+            <p>Both teams benefit from Volleyball Empowerment support so they can continue to compete in international competitions.</p>
+            <small>14. junij, 2024</small>
+        </div>
+
+        <!-- News Card 3 -->
+        <div class="news-card">
+            <img src="img/nov3.jpg" alt="Novica 3" class="news-img">
+            <h3>HDC and Abercrombie Crowned in Maldives and USA</h3>
+            <p>Both teams benefit from Volleyball Empowerment support so they can continue to compete in international competitions.</p>
+            <small>14. junij, 2024</small>
+        </div>
+    </div>
+
+    <!-- Dots Section -->
+    <div class="dots">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+    </div>
+</section>
+<div class="cookie-clicker">
+    <h2>Piškotek Kliker</h2>
+    <button id="cookie-btn" class="cookie-btn">Klikni na piškotek!</button>
+    <p id="click-counter">Klikni in začni šteti!</p>
+</div><script src="web.js"></script>
 
 </body>
 </html>
