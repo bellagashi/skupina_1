@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* Splošni slog */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Raleway, "Helvetica Neue", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,7 +15,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #00414d;
+    background-color: #0A2227;
     padding: 15px 20px;
     color: white;
 }
@@ -35,17 +37,25 @@ body {
 .hero {
     position: relative;
     width: 100%;
-    height: 53em;
+    height: 50em;
     overflow: hidden;
-
 }
-
-
 .hero-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     filter: brightness(50%); /* Zmanjša svetlost na 50% */
+}
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-80%, -10%);
+    color: #c1c1c1;
+    font-size: 4.2em;
+    font-weight: bold;
+    text-align: left;
 }
 
 /* Novice */
@@ -140,7 +150,7 @@ body {
 .cookie-btn {
     width: 150px;
     height: 150px;
-    background: url('cookie.png') no-repeat center center / contain; /* Uporabite sliko piškotka */
+    background: url('img/cookie.png') no-repeat center center / contain; /* Uporabite sliko piškotka */
     border: none;
     cursor: pointer;
     border-radius: 50%;
