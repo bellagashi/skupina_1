@@ -254,3 +254,101 @@ section .slika img {
     width: 100%;
     border-radius: 8px;
 }
+/* TEKME SPLETNA STRAN */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2a2a2a;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  border-radius: 50%;
+}
+
+.menu span {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.content {
+  padding: 20px;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filters button {
+  background-color: #3a3a3a;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.matches {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.match {
+  background-color: #2a2a2a;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.match-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.score {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.score div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.score img {
+  width: 30px;
+  height: 20px;
+}
+
+.sets {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.view-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
