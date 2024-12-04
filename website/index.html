@@ -4,18 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Novice</title>
-
+    <script src="web.js" defer></script>
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
 <!-- Glavni meni -->
 <header class="header">
-    <div class="logo"></div>
+    <div class="logo">
+        <button id="cookie-btn" class="cookie-btn">
+            <img src="img/ball.png" alt="zoga" class="cookie-img">
+        </button>
+        <p id="click-counter"></p>
+    </div>
+
     <nav class="nav">
+        <a href="index.html">Domov</a>
         <a href="osportu.html">O športu</a>
-        <a href="#">Tekme</a>
-        <a href="#">Ratings</a>
+        <a href="tekme.html">Tekme</a>
+
         <button id="dark-mode-toggle" class="dark-mode-toggle">🌙</button>
     </nav>
 </header>
@@ -33,28 +40,31 @@
 <!-- Sekcija z novicami -->
 <section class="news-section">
     <h2>Zadnje novice</h2>
+
+        <p id="trenutni-datum"></p>
+
     <div class="news-container">
         <!-- News Card 1 -->
         <div class="news-card">
             <img src="img/novice.jpg" alt="Novica 1" class="news-img">
-            <h3>HDC and Abercrombie Crowned in Maldives and USA</h3>
-            <p>Both teams benefit from Volleyball Empowerment support so they can continue to compete in international competitions.</p>
+            <h3>HDC in Abercrombie okronana na Maldivih in v ZDA</h3>
+            <p>Obe ekipi koristita podporo Volleyball Empowerment, da lahko še naprej tekmujeta na mednarodnih tekmovanjih.</p>
             <small>14. junij, 2024</small>
         </div>
 
         <!-- News Card 2 -->
         <div class="news-card">
             <img src="img/nov2.jpg" alt="Novica 2" class="news-img">
-            <h3>HDC and Abercrombie Crowned in Maldives and USA</h3>
-            <p>Both teams benefit from Volleyball Empowerment support so they can continue to compete in international competitions.</p>
+            <h3>HDC in Abercrombie okronana na Maldivih in v ZDA</h3>
+            <p>Obe ekipi koristita podporo Volleyball Empowerment, da lahko še naprej tekmujeta na mednarodnih tekmovanjih.</p>
             <small>14. junij, 2024</small>
         </div>
 
         <!-- News Card 3 -->
         <div class="news-card">
             <img src="img/nov3.jpg" alt="Novica 3" class="news-img">
-            <h3>HDC and Abercrombie Crowned in Maldives and USA</h3>
-            <p>Both teams benefit from Volleyball Empowerment support so they can continue to compete in international competitions.</p>
+            <h3>HDC in Abercrombie okronana na Maldivih in v ZDA</h3>
+            <p>Obe ekipi koristita podporo Volleyball Empowerment, da lahko še naprej tekmujeta na mednarodnih tekmovanjih.</p>
             <small>14. junij, 2024</small>
         </div>
     </div>
@@ -66,11 +76,44 @@
         <div class="dot"></div>
     </div>
 </section>
-<div class="cookie-clicker">
-    <h2>Piškotek Kliker</h2>
-    <button id="cookie-btn" class="cookie-btn">Klikni na piškotek!</button>
-    <p id="click-counter">Klikni in začni šteti!</p>
-</div><script src="web.js"></script>
+<!-- Sekcija z dodatnimi vprašanji -->
+<section class="extra-questions-section">
+    <div class="carousel-container">
+        <img src="img/novice.jpg" alt="Odbojka slika" id="carousel-img" class="carousel-img">
+        <button id="prev-btn" class="carousel-btn prev-btn">⬅</button>
+        <button id="next-btn" class="carousel-btn next-btn">➡</button>
+    </div>
+    <div class="questions-container">
+        <h2>Dodatna vprašanja o odbojki</h2>
+        <div class="question">
+            <h3>Kakšne so osnove odbojke?</h3>
+            <p>Odbojka je ekipni šport, ki se igra z žogo na igrišču, razdeljenem z mrežo. Cilj je doseči točke tako, da žoga pade na nasprotnikovo stran igrišča.</p>
+        </div>
+        <div class="question">
+            <h3>Kakšne so koristi igranja odbojke?</h3>
+            <p>Odbojka izboljša fizično kondicijo, koordinacijo, timsko delo in komunikacijo, hkrati pa prinaša zabavo in druženje.</p>
+        </div>
+        <div class="question">
+            <h3>Kaj potrebujem, da začnem igrati odbojko?</h3>
+            <p>Začeti je enostavno! Potrebujete samo osnovno športno opremo, žogo in prostor za igro.</p>
+        </div>
+        <div class="question more-text">
+            <h3>Zakaj se pridružiti naši odbojkarski skupnosti?</h3>
+            <p>
+                Pridružitev našim skupinam vam omogoča, da izboljšate svoje sposobnosti, spoznate nove prijatelje in postanete del strastne športne skupnosti.
+                <span id="more-text" class="hidden">
+                Naše skupine vključujejo vadbe, tekmovanja in družabne dogodke, ki vam pomagajo razviti vaše sposobnosti in se zabavati. Pridružite se nam zdaj in začutite moč odbojke!
+                </span>
+            </p>
+            <button id="show-more-btn">Pokaži več</button>
+        </div>
+    </div>
+</section>
+
+
+
+
+
 
 </body>
 </html>

@@ -1,0 +1,180 @@
+/* TEKME SPLETNA STRAN */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: white;
+}
+/* Glavni meni */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0A2227;
+    padding: 15px 20px;
+    color: white;
+}
+
+.header .logo {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.logo {
+    display: flex;
+    gap: 10px;
+}
+/* Cookie Clicker slog */
+.cookie-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.cookie-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: transform 0.2s;
+}
+
+.cookie-img:active {
+    transform: scale(0.9); /* Efekt pritiska na gumb */
+}
+
+#click-counter {
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+
+.menu span {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.content {
+    padding: 20px;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.filters button {
+    background-color: #3a3a3a;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.matches {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.match {
+    background-color: #2a2a2a;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.match-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.score div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.score img {
+    width: 30px;
+    height: 20px;
+}
+
+.sets {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.view-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/*O Športu css*/
+
+.vsebina {
+    padding: 2rem;
+    background-color: rgb(41, 52, 54);
+    color: white;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+section .besedilo {
+    flex: 1;
+}
+
+section .besedilo h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+section .besedilo p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+section .besedilo .gumb {
+    color: #00bcd4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section .slika {
+    flex: 1;
+}
+
+section .slika img {
+    width: 100%;
+    border-radius: 8px;
+}

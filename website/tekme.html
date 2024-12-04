@@ -4,18 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tekme</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="sytle1.css">
+  <script src="web.js" defer></script>
 </head>
 <body>
-  <div class="header">
-    <div class="logo"></div>
-    <div class="menu">
-      <span>O ŠPORTU</span>
-      <span>TEKME</span>
-      <span>RATINGS</span>
-    </div>
+<header class="header">
+  <div class="logo">
+    <button id="cookie-btn" class="cookie-btn">
+      <img src="img/ball.png" alt="zoga" class="cookie-img">
+    </button>
+    <p id="click-counter"></p>
   </div>
 
+  <nav class="nav">
+    <a href="index.html">Domov</a>
+    <a href="osportu.html">O športu</a>
+    <a href="tekme.html">Tekme</a>
+
+    <button id="dark-mode-toggle" class="dark-mode-toggle">🌙</button>
+  </nav>
+</header><selection class="tekme">
   <div class="content">
     <div class="filters">
       <button>&lt;</button>
@@ -132,6 +140,7 @@
                 </div>
                 <script src="script.js"></script>
     </div>
-  </div>
+  </div></div>
+</selection>
 </body>
 </html>

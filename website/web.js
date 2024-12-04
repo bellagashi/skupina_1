@@ -2,7 +2,7 @@
 let steviloKlikov = 0;
 
 function pravilnaSklanjatev(stevilo) {
-    switch (stevilo ) {
+    switch (stevilo) {
         case 1:
             return 'klik';
         case 2:
@@ -18,8 +18,9 @@ function pravilnaSklanjatev(stevilo) {
 document.getElementById('cookie-btn').addEventListener('click', function () {
     steviloKlikov++;
     document.getElementById('click-counter').innerText =
-        `Kliknil si ${steviloKlikov} ${pravilnaSklanjatev(steviloKlikov)}.`;
+        `Naredil si ${steviloKlikov} ${pravilnaSklanjatev(steviloKlikov)}.`;
 });
+
 
 // Element za preklapljanje temnega načina
 const toggleButton = document.getElementById('dark-mode-toggle');
@@ -49,3 +50,44 @@ toggleButton.addEventListener('click', () => {
     }
 });
 
+// Vrtiljak za slike
+const carouselImages = ['img/novice.jpg', 'img/inx.jpg', 'img/nov3.jpg'];
+let currentIndex = 0;
+
+const carouselImg = document.getElementById('carousel-img');
+const prevBtn = document.getElementById('prev-btn');
+const nextBtn = document.getElementById('next-btn');
+
+prevBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + carouselImages.length) % carouselImages.length;
+    carouselImg.src = carouselImages[currentIndex];
+});
+
+nextBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % carouselImages.length;
+    carouselImg.src = carouselImages[currentIndex];
+});
+
+// "Pokaži več" funkcionalnost
+const showMoreBtn = document.getElementById('show-more-btn');
+const moreText = document.getElementById('more-text');
+
+showMoreBtn.addEventListener('click', () => {
+    if (moreText.classList.contains('hidden')) {
+        moreText.classList.remove('hidden');
+        showMoreBtn.textContent = 'Pokaži manj';
+    } else {
+        moreText.classList.add('hidden');
+        showMoreBtn.textContent = 'Pokaži več';
+    }
+});
+
+function prikaziDatum() {
+    const datum = new Date();
+    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    const slovenskiDatum = datum.toLocaleDateString('sl-SI', options);
+
+    document.getElementById('trenutni-datum').textContent = slovenskiDatum;
+}
+
+prikaziDatum();
