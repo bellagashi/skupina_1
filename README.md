@@ -1,9 +1,10 @@
 # Uporaba umetne inteligence v šolah
 
-## KAZALO
-[Uvod](#Uvod).
-[Uporaba umetne inteligence za izboljšanje kakovosti pouka](###poraba umetne inteligence za izboljšanje kakovosti pouka).
-
+## KAZALO  
+1. [Uvod](#uvod)  
+2. [Uporaba umetne inteligence za izboljšanje kakovosti pouka](#uporaba-umetne-inteligence-za-izboljšanje-kakovosti-pouka)  
+3. [Zaključek](#zakljucek)  
+4. [Viri](#viri)  
 
 ## UVOD
 Uporaba umetne inteligence (UI) v šolstvu se je v zadnjem desetletju močno povečala in postala ključna za izboljšanje poučevanja ter prilagajanje učnih procesov potrebam sodobnih učencev. Umetna inteligenca v šolah omogoča inovativne pristope k poučevanju, kot so prilagajanje vsebin, analitika učnega napredka in izboljšana interaktivnost. Kot ugotavljata Chen in Li (2024), so učitelji in učenci v osnovnih in srednjih šolah s pomočjo umetne inteligence uspešno uporabili različne tehnologije, kar je spodbudilo ustvarjalnost ter omogočilo boljši vpogled v napredek pri učenju. Kljub prednostim pa obstajajo tudi številni izzivi, kot so omejene tehnološke zmožnosti, potreba po dodatnem usposabljanju učiteljev ter pomanjkanje ustreznih učnih načrtov, ki bi podpirali učinkovito implementacijo UI v učilnicah (Gao, Xia in Ji, 2024). 
@@ -17,6 +18,10 @@ Uporaba umetne inteligence v učilnicah ima pomemben vpliv na kakovost poučevan
 Kljub temu so raziskovalci ugotovili, da primanjkuje inovativne rabe tehnologije, saj se v večini primerov aplikacije umetne inteligence v šolah le vključujejo v življenjske situacije, vendar brez večjih prilagoditev ali naprednejše uporabe. Poleg tega je pri ocenjevanju učencev sicer na voljo več metod, vendar pa je vsebina pogosto omejena in potrebuje dodatne izboljšave. To nakazuje, da šole potrebujejo nadaljnje smernice in podporo za popolno integracijo UI tehnologije v učni proces, ki bo omogočila dolgoročne učne koristi (Chen & Li, 2024).
 
 ## ZAKLJUČEK
+Uporaba umetne inteligence v šolstvu ima velik potencial za izboljšanje kakovosti izobraževanja, vendar zahteva premišljeno implementacijo, ki presega zgolj osnovno uporabo tehnologije. Kot ugotavljata Chen in Li (2024), umetna inteligenca omogoča personalizirane učne metode in poglobljeno razumevanje snovi, kar bistveno prispeva k boljši učni izkušnji. Vendar je treba nasloviti izzive, kot so pomanjkanje usposobljenosti učiteljev, omejene tehnološke zmogljivosti in potreba po prenovi učnih načrtov (Gao, Xia in Ji, 2024).  
+
+Da bi se izkoristile vse prednosti umetne inteligence v šolstvu, je ključno vlaganje v izobraževanje učiteljev, razvoj sodobne infrastrukture in oblikovanje učnih strategij, ki temeljijo na inovativni rabi UI. Le s celovitim pristopom bo mogoče doseči dolgotrajne učne koristi in izboljšati izobraževalne sisteme za prihodnje generacije.
+
 ## VIRI
 - Chen, T., & Li, X. (2024). *A Behavioral Analysis Study of Artificial Intelligence Classroom Technology Application in Primary and Secondary Schools*. V *ICDEL '24: Proceedings of the 2024 9th International Conference on Distance Education and Learning* (str. 144–150). 
 - Gao, Q., Xia, G., & Ji, H. (2024). *Innovation and Breakthrough of Teaching in Primary and Secondary Schools Based on Computer Artificial Intelligence*.
